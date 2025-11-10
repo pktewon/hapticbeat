@@ -26,7 +26,8 @@
       "package": "com.hapticbeat.app",
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.VIBRATE"
+        "android.permission.VIBRATE",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "web": {
@@ -39,7 +40,11 @@
           "microphonePermission": false
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "56b4522a-80ba-4aa2-b119-e3d23e56b9ee"
+      }
+    }
   }
 }
-
