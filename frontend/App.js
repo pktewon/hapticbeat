@@ -20,7 +20,7 @@ import AudioPlayer from './components/AudioPlayer';
 // Android Emulator: http://10.0.2.2:8000
 // iOS Simulator: http://localhost:8000
 // 실제 기기: http://YOUR_COMPUTER_IP:8000
-const API_URL = 'http://10.0.2.2:8000';
+const API_URL = 'http://192.168.2.19:8000'; // 실제 기기 (내 IP 주소)
 
 export default function App() {
   const [selectedFile, setSelectedFile] = useState(null);

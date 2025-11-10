@@ -9,8 +9,9 @@ import {
   View,
   TouchableOpacity,
   ActivityIndicator,
-  Slider,
+  // Slider, // <-- 이 줄을 지우거나 주석 처리
 } from 'react-native';
+import Slider from '@react-native-community/slider'; // <-- 이 줄을 새로 추가
 import { Audio } from 'expo-av';
 import * as Haptics from 'expo-haptics';
 
